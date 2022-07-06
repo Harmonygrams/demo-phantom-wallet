@@ -18,3 +18,8 @@
     text-align: center;
     margin: 0 25%;
 }
+.header__logged{
+    color: white;
+    text-align: center;
+    font-size: .9rem;
+}

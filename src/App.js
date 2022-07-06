@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar"
 import ManageTokens from "./components/ManageToken"
 import PhantomLogo from "./assets/phantom-logo.svg";
 import "./components/Login.css" 
+import {FaTwitter} from "react-icons/fa"
+import {BsInstagram} from "react-icons/bs"
 
 
 function App(){ 
@@ -37,9 +39,13 @@ function App(){
     })
     return(
         <div> 
+            <header> 
+                <a href="https://twitter.com/harmony_web3" target="_blank"><FaTwitter /></a>
+                <a href="https://www.instagram.com/web3harmony/" target="_blank"><BsInstagram/></a>
+            </header>
             <p className="login__details"> Password: <span className="password">view</span></p>
             <div className="app"> 
-                <Header />
+                <Header loginState={isLoggedIn}/>
                 {!isLoggedIn && 
                 <div className="login"> 
                     <div className="logo__container">

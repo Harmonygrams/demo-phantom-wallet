@@ -29,3 +29,7 @@ h3{
     background-color: rgba(33, 229, 111, 0.1);
     padding: .2rem .5rem;
 }
+footer > a{ 
+    color: white;
+    font-size: 2rem;
+}

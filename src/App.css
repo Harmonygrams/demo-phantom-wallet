@@ -10,3 +10,12 @@
 .app::-webkit-scrollbar{
     display: none;
 }
+header{ 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header > a{ 
+    color: rgb(78, 68, 206);
+    font-size: 2rem;
+}
