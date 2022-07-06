@@ -1,0 +1,56 @@
+.token{ 
+    border: 1px solid rgb(45,45,45); 
+    width: 92%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} 
+.token__container{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    padding: 1rem .4rem;
+    gap: 7px;
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: 5px;
+}
+
+.token__image__container > img{ 
+    width: 48px;
+}
+.token__name__container{ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+.token__container:hover{ 
+    background-color: rgb(85,85,85);
+}
+.token__name__container > h3{ 
+    color: white;
+    font-size: .95rem;
+}
+.token__name__container > p{ 
+    color: rgb(119, 119, 119); 
+    font-size: .85rem;
+}
+.token__amount__container{ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    flex-direction: column;
+    margin-left: auto;
+    gap: 5px;
+}
+.token__profit-dollar{ 
+    color: white;
+    font-size: .85rem;
+}
+.token__profit-percent{ 
+    color: rgb(33, 229, 111);
+    font-size: .8rem;
+}

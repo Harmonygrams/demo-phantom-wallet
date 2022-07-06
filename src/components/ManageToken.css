@@ -1,0 +1,19 @@
+.manage__tokens{
+    margin-block: 30px;
+}
+.manage__tokens__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.manage__tokens__container > h3{ 
+    color: rgb(119, 119, 119);
+    
+}
+.manage__tokens__container > :hover{
+    color: rgb(138, 129, 248);
+    fill: rgb(138, 129, 248);
+}
+

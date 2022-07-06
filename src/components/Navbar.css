@@ -1,0 +1,22 @@
+.navbar{
+    background-color: rgb(43, 43, 43);
+    border-top: rgb(50,50,50);
+    box-shadow: rgb(0 0 0 / 25%) 0px -6px 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+
+}
+.nav__list{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem .2rem;
+}
+.nav__list > li{ 
+    transition: var(--transition);
+}
+
+.nav__list > li > svg:hover{
+    fill: white;
+}
